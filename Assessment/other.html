@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Other Food</title>
+</head>
+<body>
+    <div class = "annoucement-bar">
+        <p class = "annoucement-bar">Get FREE delivery on all orders over $300</p>
+    </div>
+    <ul class = "navbar">
+        <li class = "navbar"><a class = "navbar" href = "homepage.html">Home</a></li>
+        <li class = "navbar"><a class = "navbar" href = "dogfood.html">Dog Food</a></li>
+        <li class = "navbar"><a class = "navbar" href = "catfood.html">Cat Food</a></li>
+        <li class = "navbar"><a class = "navbar" href = "fishfood.html">Fish Food</a></li>
+        <li class = "navbar"><a class = "navbar" href = "other.html">Other</a></li>
+    </ul>
+    <p class="body-header">Other Foods</p>
+    <img class = "dogheader" src = "photos/other.png">
+    <br>
+    <br>
+    <div id="rightDiv" class = "rightDiv">
+        <button id ="checkOut" onclick="invoice()"><img src ="photos/cart.jpeg" width = "30px" height = "30px"</button>
+    </div>
+    <script src = "animations.js"></script>
+    <table class="products">
+        <tr class="products">
+            <td class="products">
+                <img class = "products" src = "photos/otherfood1.png">
+                <p class = "products">Kaytee Rabbit: $29.99</p>
+                <input placeholder="Quantity" type="number" id = "o1qty">
+                <button id = "otherfood1" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/otherfood2.png">
+                <p class = "products">Toplite: $32.99</p>
+                <input placeholder="Quantity" type="number" id = "o2qty">
+                <button id = "otherfood2" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/otherfood3.png">
+                <p class = "products">Higgins: $31.99</p>
+                <input placeholder="Quantity" type="number" id = "o3qty">
+                <button id = "otherfood3" onclick="addProductToCart(this.id)">+</button>
+            </td>
+        </tr>
+        <tr class="products">
+            <td class="products">
+                <img class = "products" src = "photos/otherfood4.png">
+                <p class = "products">Little Friends: $31.99</p>
+                <input placeholder="Quantity" type="number" id = "o4qty">
+                <button id = "otherfood4" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/otherfood5.png">
+                <p class = "products">Boltz: $27.99</p>
+                <input placeholder="Quantity" type="number" id = "o5qty">
+                <button id = "otherfood5" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/otherfood6.png">
+                <p class = "products">Kaytee Bird Food: $28.99</p>
+                <input placeholder="Quantity" type="number" id = "o6qty">
+                <button id = "otherfood6" onclick="addProductToCart(this.id)">+</button>
+            </td>
+        </tr>
+        <tr class="products">
+            <td class="products">
+                <img class = "products" src = "photos/otherfood7.png">
+                <p class = "products">Audubon Park: $26.99</p>
+                <input placeholder="Quantity" type="number" id = "o7qty">
+                <button id = "otherfood7" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/otherfood8.png">
+                <p class = "products">Flower Power: $29.99</p>
+                <input placeholder="Quantity" type="number" id = "o8qty">
+                <button id = "otherfood8" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/otherfood9.png">
+                <p class = "products">Trill: $28.99</p>
+                <input placeholder="Quantity" type="number" id = "o9qty">
+                <button id = "otherfood9" onclick="addProductToCart(this.id)">+</button>
+            </td>
+        </tr>
+    </table>
+    <div id="myModal" class="modal">
+        <!-- Invoice content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id = "invoicePlace" class = "inv">Invoice</div>
+        </div>
+
+    </div>
+</body>
+<br>
+<br>
+<footer>
+    <p class = "footer">Office Location: 21 Omahu road, Takapuna, New Zealand - Our Helpline: 0800 90 80 70</p>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+    </style>
+    <ul class = "social">
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span> - Facebook</span>
+            </a>
+        </li>
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span> - Twitter</span>
+            </a>
+        </li>
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <span> - Google</span>
+            </a>
+        </li>
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span> - Instagram</span>
+            </a>
+        </li>
+    </ul>
+    <br>
+</footer>
+</html>

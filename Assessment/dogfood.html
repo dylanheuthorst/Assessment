@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Dog Food</title>
+</head>
+<body>
+    <div class = "annoucement-bar">
+        <p class = "annoucement-bar">Get FREE delivery on all orders over $300</p>
+    </div>
+    <ul class = "navbar">
+        <li class = "navbar"><a class = "navbar" href = "homepage.html">Home</a></li>
+        <li class = "navbar"><a class = "navbar" href = "dogfood.html">Dog Food</a></li>
+        <li class = "navbar"><a class = "navbar" href = "catfood.html">Cat Food</a></li>
+        <li class = "navbar"><a class = "navbar" href = "fishfood.html">Fish Food</a></li>
+        <li class = "navbar"><a class = "navbar" href = "other.html">Other</a></li>
+    </ul>
+    <p class="body-header">Dog Food</p>
+    <img class = "dogheader" src = "photos/doggy.png">
+    </head>
+    <br>
+    <br>
+    <div id="rightDiv" class = "rightDiv">
+        <button id ="checkOut" onclick="invoice()"><img src ="photos/cart.jpeg" width = "30px" height = "30px"</button>
+    </div>
+    <script src = "animations.js"></script>
+    <table class="products">
+        <tr class="products">
+            <td class="products">
+                <img class = "products" src = "photos/dogfood1.png">
+                <p class = "products">Pedigree: $49.99</p>
+                <input placeholder="Quantity" type="number" id = "f1qty">
+                <button id = "dogfood1" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/dogfood2.png">
+                <p class = "products">Omega Plus: $52.99</p>
+                <input placeholder="Quantity" type="number" id = "f2qty">
+                <button id = "dogfood2" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/dogfood3.png">
+                <p class = "products">Royal Canin: $51.99</p>
+                <input placeholder="Quantity" type="number" id = "f3qty">
+                <button id = "dogfood3" onclick="addProductToCart(this.id)">+</button>
+            </td>
+        </tr>
+        <tr class="products">
+            <td class="products">
+                <img class = "products" src = "photos/dogfood4.png">
+                <p class = "products">Natures Goodness: $51.99</p>
+                <input placeholder="Quantity" type="number" id = "f4qty">
+                <button id = "dogfood4" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/dogfood5.png">
+                <p class = "products">Black Hawk: $47.99</p>
+                <input placeholder="Quantity" type="number" id = "f5qty">
+                <button id = "dogfood5" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/dogfood6.png">
+                <p class = "products">Hills Science Diet: $48.99</p>
+                <input placeholder="Quantity" type="number" id = "f6qty">
+                <button id = "dogfood6" onclick="addProductToCart(this.id)">+</button>
+            </td>
+        </tr>
+        <tr class="products">
+            <td class="products">
+                <img class = "products" src = "photos/dogfood7.png">
+                <p class = "products">K9 Natural: $46.99</p>
+                <input placeholder="Quantity" type="number" id = "f7qty">
+                <button id = "dogfood7" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/dogfood8.png">
+                <p class = "products">Cop Rice: $49.99</p>
+                <input placeholder="Quantity" type="number" id = "f8qty">
+                <button id = "dogfood8" onclick="addProductToCart(this.id)">+</button>
+            </td>
+            <td class="products">
+                <img class = "products" src = "photos/dogfood9.png">
+                <p class = "products">Purina: $48.99</p>
+                <input placeholder="Quantity" type="number" id = "f9qty">
+                <button id = "dogfood9" onclick="addProductToCart(this.id)">+</button>
+            </td>
+        </tr>
+    </table>
+    <div id="myModal" class="modal">
+        <!-- Invoice content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id = "invoicePlace" class = "inv">Invoice</div>
+        </div>
+
+    </div>
+</body>
+<br>
+<br>
+<footer>
+    <p class = "footer">Office Location: 21 Omahu road, Takapuna, New Zealand - Our Helpline: 0800 90 80 70</p>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+    </style>
+    <ul class = "social">
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span> - Facebook</span>
+            </a>
+        </li>
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span> - Twitter</span>
+            </a>
+        </li>
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <span> - Google</span>
+            </a>
+        </li>
+        <li class = "social">
+            <a href="#" class = "social">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span> - Instagram</span>
+            </a>
+        </li>
+    </ul>
+    <br>
+</footer>
+</html>
